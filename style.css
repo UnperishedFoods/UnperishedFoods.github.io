@@ -118,6 +118,8 @@ iframe {
   border-radius: 10px;
   border: 2px dashed #a500a5;
   align-content: center;
+  width: auto;
+  height: auto;
 }
 
 h3 {
