@@ -8,25 +8,25 @@ html {
 .header {
   background-color: #1e1e1e;
   text-align: center;
-  margin: 0px;
+  margin-bottom: 0px;
   display: relative;
   width: 100%;
   position: fixed;
-  box-shadow: 0 0px 10px 5px rgba(0,0,0,0.5);
+  box-shadow: 0 0px 10px 5px rgba(0,0,0,0.7);
   font-family: 'Courier New', Courier, monospace;
-  font-size: 0.95em;
+  font-size: 2.5vw;
   padding-left: 0.4em;
   padding-top: 1em;
   justify-content: center;
-  padding-bottom: 10px;
+  padding-bottom: 10px
 }
 
 .body {
   background-image: linear-gradient(to bottom right, #00a5a5, #a515a5);
-  margin: 0px;
+  margin-top: 3vh;
   width: 100%;
   padding-bottom: 3rem;
-  padding-top: 40px;
+  padding-top: 6vh;
 }
 
 head {
@@ -61,7 +61,7 @@ h1 {
 h2 {
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
-  font-size: 3.5vw;
+  font-size: 5vw;
   margin: 2px;
 }
 
@@ -69,7 +69,7 @@ p {
   color: #a5d6a5;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 15px;
+  font-size: 2.5vw;
   padding: 10px;
 }
 
@@ -99,7 +99,7 @@ a:hover {
 
 .normal-text {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1em;
   font-family: 'Courier New', Courier, monospace;
   padding: 10px;
 }
@@ -125,7 +125,7 @@ iframe {
 h3 {
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
-  font-size: 5vw;
+  font-size: 20pt;
 }
 
 .link {
@@ -140,4 +140,8 @@ h3 {
   color: #a5d6a5;
   text-shadow: 1px 1px #ff00ff;
   justify-content: center;
+}
+
+.h3_remargin {
+  margin-bottom: -30px;
 }
