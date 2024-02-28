@@ -120,6 +120,8 @@ iframe {
   align-content: center;
   width: auto;
   height: auto;
+  animation-name: fadein;
+  animation-duration: 2s;
 }
 
 h3 {
@@ -144,4 +146,13 @@ h3 {
 
 .h3_remargin {
   margin-bottom: -30px;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
