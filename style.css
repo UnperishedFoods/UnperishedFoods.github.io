@@ -18,7 +18,7 @@ html {
   padding-left: 0.4em;
   padding-top: 1em;
   justify-content: center;
-  padding-bottom: 10px
+  padding-bottom: 10px;
 }
 
 .body {
@@ -34,7 +34,7 @@ head {
   border: 0px;
   padding: 0px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   color: #a5d6a5;
 }
 
@@ -75,8 +75,8 @@ p {
 
 .header-link {
   text-decoration: none;
-  color: #a5d6a5;
-  text-shadow: 1px 1px #ff00ff;
+  color: #00a5a5;
+  text-shadow: 1px 1px #0b4b41;
 }
 
 .footer {
@@ -109,6 +109,8 @@ a:hover {
   border-radius: 5px;
   border-bottom: 0px;
   width: 50%;
+  animation-name: fadein;
+  animation-duration: 1s;
 }
 
 iframe {
@@ -155,4 +157,22 @@ h3 {
   to {
     opacity: 1;
   }
+}
+
+.header-button {
+  background-color: #54f3ff;
+  width: 11%;
+  height: auto;
+  border-radius: 15px;
+  margin: 0px;
+  padding: 5px 12px;
+  display: inline-flex;
+  box-shadow: #439ecb 4px 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.header-button:hover {
+  transition: all 0.3s ease-in-out;
+  box-shadow: #4ff0e5 0px 0px;
+  transform: translate(4px, 4px)
 }
