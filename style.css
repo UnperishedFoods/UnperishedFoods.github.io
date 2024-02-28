@@ -174,5 +174,9 @@ h3 {
 .header-button:hover {
   transition: all 0.3s ease-in-out;
   box-shadow: #4ff0e5 0px 0px;
-  transform: translate(4px, 4px)
+  transform: translate(4px, 4px);
+}
+.link:hover {
+  transition: all 0.3s ease-in-out;
+  box-shadow: #437a76 0px 0px;
 }
