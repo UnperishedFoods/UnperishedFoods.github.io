@@ -14,9 +14,9 @@ html {
   position: fixed;
   box-shadow: 0 0px 10px 5px rgba(0,0,0,0.7);
   font-family: 'Courier New', Courier, monospace;
-  font-size: 2.5vw;
+  font-size: 2vw;
   padding-left: 0.4em;
-  padding-top: 1em;
+  padding-top: 0.25em;
   justify-content: center;
   padding-bottom: 10px;
 }
@@ -26,7 +26,7 @@ html {
   margin-top: 3vh;
   width: 100%;
   padding-bottom: 3rem;
-  padding-top: 6vh;
+  padding-top: 1vh;
 }
 
 head {
